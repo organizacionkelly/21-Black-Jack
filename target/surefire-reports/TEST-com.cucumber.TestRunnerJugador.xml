@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="11" failures="0" name="com.cucumber.TestRunnerJugador" time="0.071" errors="0" skipped="0">
+<testsuite tests="11" failures="0" name="com.cucumber.TestRunnerJugador" time="0.073" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="11.0.15+10-Ubuntu-0ubuntu0.20.04.1"/>
@@ -42,7 +42,7 @@
     <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.x.jar"/>
     <property name="java.vm.specification.version" value="11"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher deploy"/>
     <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -60,14 +60,14 @@
     <property name="sun.cpu.isalist" value=""/>
   </properties>
   <testcase classname="jugador juego 21" name="verificar que al jugador le repartan dos cartas" time="0.01"/>
-  <testcase classname="jugador juego 21" name="verificar que un jugador puede recibir cartas siempre y cuando no se superen los 21 puntos #1" time="0.01"/>
-  <testcase classname="jugador juego 21" name="verificar que un jugador puede recibir cartas siempre y cuando no se superen los 21 puntos #2" time="0.005"/>
-  <testcase classname="jugador juego 21" name="verificar que un jugador puede recibir cartas siempre y cuando no se superen los 21 puntos #3" time="0.006"/>
-  <testcase classname="jugador juego 21" name="verificar que un jugador puede recibir cartas siempre y cuando no se superen los 21 puntos #4" time="0.008"/>
+  <testcase classname="jugador juego 21" name="verificar que un jugador puede recibir cartas siempre y cuando no se superen los 21 puntos #1" time="0.008"/>
+  <testcase classname="jugador juego 21" name="verificar que un jugador puede recibir cartas siempre y cuando no se superen los 21 puntos #2" time="0.007"/>
+  <testcase classname="jugador juego 21" name="verificar que un jugador puede recibir cartas siempre y cuando no se superen los 21 puntos #3" time="0.005"/>
+  <testcase classname="jugador juego 21" name="verificar que un jugador puede recibir cartas siempre y cuando no se superen los 21 puntos #4" time="0.007"/>
   <testcase classname="jugador juego 21" name="verificar que un jugador puede recibir cartas siempre y cuando no se superen los 21 puntos #5" time="0.006"/>
   <testcase classname="jugador juego 21" name="verificar que un jugador puede recibir cartas siempre y cuando no se superen los 21 puntos #6" time="0.008"/>
-  <testcase classname="jugador juego 21" name="Determinar el puntaje de los jugadores y definir el ganador #1" time="0.005"/>
-  <testcase classname="jugador juego 21" name="Determinar el puntaje de los jugadores y definir el ganador #2" time="0.004"/>
-  <testcase classname="jugador juego 21" name="Determinar el puntaje de los jugadores y definir el ganador #3" time="0.004"/>
+  <testcase classname="jugador juego 21" name="Determinar el puntaje de los jugadores y definir el ganador #1" time="0.006"/>
+  <testcase classname="jugador juego 21" name="Determinar el puntaje de los jugadores y definir el ganador #2" time="0.005"/>
+  <testcase classname="jugador juego 21" name="Determinar el puntaje de los jugadores y definir el ganador #3" time="0.006"/>
   <testcase classname="jugador juego 21" name="Determinar el puntaje de los jugadores y definir el ganador #4" time="0.005"/>
 </testsuite>
