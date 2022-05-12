@@ -42,7 +42,7 @@
     <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.x.jar"/>
     <property name="java.vm.specification.version" value="11"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher deploy"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install"/>
     <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -61,10 +61,10 @@
   </properties>
   <testcase classname="com.ing_software.veintiuno.JugadorTest" name="imprimirCartasOcultarPrimera" time="0.001"/>
   <testcase classname="com.ing_software.veintiuno.JugadorTest" name="imprimirCartas" time="0"/>
-  <testcase classname="com.ing_software.veintiuno.JugadorTest" name="wontAddCard" time="0"/>
+  <testcase classname="com.ing_software.veintiuno.JugadorTest" name="wontAddCard" time="0.001"/>
   <testcase classname="com.ing_software.veintiuno.JugadorTest" name="sumarPuntosAs" time="0"/>
   <testcase classname="com.ing_software.veintiuno.JugadorTest" name="sumarPuntos" time="0"/>
-  <testcase classname="com.ing_software.veintiuno.JugadorTest" name="getNombre" time="0.001"/>
+  <testcase classname="com.ing_software.veintiuno.JugadorTest" name="getNombre" time="0"/>
   <testcase classname="com.ing_software.veintiuno.JugadorTest" name="getPuntaje" time="0"/>
   <testcase classname="com.ing_software.veintiuno.JugadorTest" name="getCarta" time="0"/>
 </testsuite>
