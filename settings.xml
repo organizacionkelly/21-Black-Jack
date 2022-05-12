@@ -17,7 +17,7 @@
         </repository>
         <repository>
           <id>github</id>
-          <url>https://github.com/kelly1311/prueba</url>
+          <url>https://maven.pkg.github.com/organizacionkelly/prueba-mvn</url>
           <snapshots>
             <enabled>true</enabled>
           </snapshots>

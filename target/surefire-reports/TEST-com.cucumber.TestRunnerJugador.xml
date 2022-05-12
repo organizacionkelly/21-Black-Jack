@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="11" failures="0" name="com.cucumber.TestRunnerJugador" time="0.066" errors="0" skipped="0">
+<testsuite tests="11" failures="0" name="com.cucumber.TestRunnerJugador" time="0.081" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="11.0.15+10-Ubuntu-0ubuntu0.20.04.1"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
-    <property name="maven.multiModuleProjectDirectory" value="/home/kelly/git/prueba"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/kelly/git/prueba-mvn"/>
     <property name="java.vm.vendor" value="Private Build"/>
     <property name="java.vendor.url" value="Unknown"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -13,7 +13,7 @@
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/home/kelly/git/prueba"/>
+    <property name="user.dir" value="/home/kelly/git/prueba-mvn"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="java.runtime.version" value="11.0.15+10-Ubuntu-0ubuntu0.20.04.1"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
@@ -59,15 +59,15 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="jugador juego 21" name="verificar que al jugador le repartan dos cartas" time="0.01"/>
-  <testcase classname="jugador juego 21" name="verificar que un jugador puede recibir cartas siempre y cuando no se superen los 21 puntos #1" time="0.007"/>
-  <testcase classname="jugador juego 21" name="verificar que un jugador puede recibir cartas siempre y cuando no se superen los 21 puntos #2" time="0.005"/>
-  <testcase classname="jugador juego 21" name="verificar que un jugador puede recibir cartas siempre y cuando no se superen los 21 puntos #3" time="0.008"/>
-  <testcase classname="jugador juego 21" name="verificar que un jugador puede recibir cartas siempre y cuando no se superen los 21 puntos #4" time="0.006"/>
-  <testcase classname="jugador juego 21" name="verificar que un jugador puede recibir cartas siempre y cuando no se superen los 21 puntos #5" time="0.005"/>
+  <testcase classname="jugador juego 21" name="verificar que al jugador le repartan dos cartas" time="0.014"/>
+  <testcase classname="jugador juego 21" name="verificar que un jugador puede recibir cartas siempre y cuando no se superen los 21 puntos #1" time="0.009"/>
+  <testcase classname="jugador juego 21" name="verificar que un jugador puede recibir cartas siempre y cuando no se superen los 21 puntos #2" time="0.007"/>
+  <testcase classname="jugador juego 21" name="verificar que un jugador puede recibir cartas siempre y cuando no se superen los 21 puntos #3" time="0.005"/>
+  <testcase classname="jugador juego 21" name="verificar que un jugador puede recibir cartas siempre y cuando no se superen los 21 puntos #4" time="0.009"/>
+  <testcase classname="jugador juego 21" name="verificar que un jugador puede recibir cartas siempre y cuando no se superen los 21 puntos #5" time="0.007"/>
   <testcase classname="jugador juego 21" name="verificar que un jugador puede recibir cartas siempre y cuando no se superen los 21 puntos #6" time="0.007"/>
-  <testcase classname="jugador juego 21" name="Determinar el puntaje de los jugadores y definir el ganador #1" time="0.005"/>
-  <testcase classname="jugador juego 21" name="Determinar el puntaje de los jugadores y definir el ganador #2" time="0.005"/>
-  <testcase classname="jugador juego 21" name="Determinar el puntaje de los jugadores y definir el ganador #3" time="0.005"/>
-  <testcase classname="jugador juego 21" name="Determinar el puntaje de los jugadores y definir el ganador #4" time="0.003"/>
+  <testcase classname="jugador juego 21" name="Determinar el puntaje de los jugadores y definir el ganador #1" time="0.006"/>
+  <testcase classname="jugador juego 21" name="Determinar el puntaje de los jugadores y definir el ganador #2" time="0.006"/>
+  <testcase classname="jugador juego 21" name="Determinar el puntaje de los jugadores y definir el ganador #3" time="0.006"/>
+  <testcase classname="jugador juego 21" name="Determinar el puntaje de los jugadores y definir el ganador #4" time="0.005"/>
 </testsuite>

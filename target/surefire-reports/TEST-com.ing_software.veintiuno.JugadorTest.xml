@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="8" failures="0" name="com.ing_software.veintiuno.JugadorTest" time="0.003" errors="0" skipped="0">
+<testsuite tests="8" failures="0" name="com.ing_software.veintiuno.JugadorTest" time="0.002" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="11.0.15+10-Ubuntu-0ubuntu0.20.04.1"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
-    <property name="maven.multiModuleProjectDirectory" value="/home/kelly/git/prueba"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/kelly/git/prueba-mvn"/>
     <property name="java.vm.vendor" value="Private Build"/>
     <property name="java.vendor.url" value="Unknown"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -13,7 +13,7 @@
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/home/kelly/git/prueba"/>
+    <property name="user.dir" value="/home/kelly/git/prueba-mvn"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="java.runtime.version" value="11.0.15+10-Ubuntu-0ubuntu0.20.04.1"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
@@ -60,11 +60,11 @@
     <property name="sun.cpu.isalist" value=""/>
   </properties>
   <testcase classname="com.ing_software.veintiuno.JugadorTest" name="imprimirCartasOcultarPrimera" time="0"/>
-  <testcase classname="com.ing_software.veintiuno.JugadorTest" name="imprimirCartas" time="0.001"/>
+  <testcase classname="com.ing_software.veintiuno.JugadorTest" name="imprimirCartas" time="0"/>
   <testcase classname="com.ing_software.veintiuno.JugadorTest" name="wontAddCard" time="0"/>
   <testcase classname="com.ing_software.veintiuno.JugadorTest" name="sumarPuntosAs" time="0.001"/>
   <testcase classname="com.ing_software.veintiuno.JugadorTest" name="sumarPuntos" time="0"/>
-  <testcase classname="com.ing_software.veintiuno.JugadorTest" name="getNombre" time="0.001"/>
+  <testcase classname="com.ing_software.veintiuno.JugadorTest" name="getNombre" time="0"/>
   <testcase classname="com.ing_software.veintiuno.JugadorTest" name="getPuntaje" time="0"/>
-  <testcase classname="com.ing_software.veintiuno.JugadorTest" name="getCarta" time="0"/>
+  <testcase classname="com.ing_software.veintiuno.JugadorTest" name="getCarta" time="0.001"/>
 </testsuite>
