@@ -5,41 +5,10 @@ on:
       - main
 
 jobs: 
-  Test-sonar:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2         
-      - name: Set up JDK
-        uses: actions/setup-java@v2
-        with:
-          java-version: '11'
-          distribution: 'adopt'
-      - name: Test
-        env:
-          USER_NAME: ${{ secrets.USER_NAME }}
-          TOKEN_GITHUB: ${{ secrets.TOKEN_GITHUB }}
-        run: mvn clean test -DuniqueVersion=false -Dmaven.source.useDefaultManifestFile=true -Dmaven.source.includePom=true -DaltDeploymentRepository='github::default::https://maven.pkg.github.com/organizacionkelly/prueba-mvn'
-      - name: Lista
-        run: | 
-         cd target
-         ls -la
-      - uses: sonarsource/sonarqube-scan-action@master
-        env:
-          TOKEN_SONAR: ${{ secrets.TOKEN_SONAR }}
-          SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
-          LC_ALL: "ru_RU.UTF-8"
-      - name: SonarQube Quality Gate check
-        uses: sonarsource/sonarqube-quality-gate-action@master
-        env:
-         TOKEN_SONAR: ${{ secrets.TOKEN_SONAR }}
-        with:
-          scanMetadataReportFile: .scannerwork/report-task.txt
-          # Force to fail step after specific time
-          timeout-minutes: 2
 
   publish-artifact:
     runs-on: ubuntu-latest
-    needs: [Test-sonar]
+
     permissions: 
       contents: read
       packages: write
@@ -60,7 +29,7 @@ jobs:
   build_image:
     name: build image
     runs-on: ubuntu-latest
-    needs: [Test-sonar]
+    needs: [publish-artifact]
     steps:
       - uses: actions/checkout@master
       - name: Login to Docker Hub
@@ -72,4 +41,4 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: kelly1311/new-repo:app-java-1
+          tags: kelly1311/new-repo:app-MCIC-Java21
