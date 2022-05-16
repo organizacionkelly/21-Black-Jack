@@ -59,13 +59,13 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="jugador juego 21" name="verificar que al jugador le repartan dos cartas" time="0.01"/>
-  <testcase classname="jugador juego 21" name="verificar que un jugador puede recibir cartas siempre y cuando no se superen los 21 puntos #1" time="0.008"/>
+  <testcase classname="jugador juego 21" name="verificar que al jugador le repartan dos cartas" time="0.011"/>
+  <testcase classname="jugador juego 21" name="verificar que un jugador puede recibir cartas siempre y cuando no se superen los 21 puntos #1" time="0.006"/>
   <testcase classname="jugador juego 21" name="verificar que un jugador puede recibir cartas siempre y cuando no se superen los 21 puntos #2" time="0.007"/>
-  <testcase classname="jugador juego 21" name="verificar que un jugador puede recibir cartas siempre y cuando no se superen los 21 puntos #3" time="0.005"/>
-  <testcase classname="jugador juego 21" name="verificar que un jugador puede recibir cartas siempre y cuando no se superen los 21 puntos #4" time="0.007"/>
+  <testcase classname="jugador juego 21" name="verificar que un jugador puede recibir cartas siempre y cuando no se superen los 21 puntos #3" time="0.006"/>
+  <testcase classname="jugador juego 21" name="verificar que un jugador puede recibir cartas siempre y cuando no se superen los 21 puntos #4" time="0.008"/>
   <testcase classname="jugador juego 21" name="verificar que un jugador puede recibir cartas siempre y cuando no se superen los 21 puntos #5" time="0.006"/>
-  <testcase classname="jugador juego 21" name="verificar que un jugador puede recibir cartas siempre y cuando no se superen los 21 puntos #6" time="0.008"/>
+  <testcase classname="jugador juego 21" name="verificar que un jugador puede recibir cartas siempre y cuando no se superen los 21 puntos #6" time="0.007"/>
   <testcase classname="jugador juego 21" name="Determinar el puntaje de los jugadores y definir el ganador #1" time="0.006"/>
   <testcase classname="jugador juego 21" name="Determinar el puntaje de los jugadores y definir el ganador #2" time="0.005"/>
   <testcase classname="jugador juego 21" name="Determinar el puntaje de los jugadores y definir el ganador #3" time="0.006"/>

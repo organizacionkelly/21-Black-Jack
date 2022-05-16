@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="17" failures="0" name="com.cucumber.TestRunnerCasa" time="0.773" errors="0" skipped="0">
+<testsuite tests="17" failures="0" name="com.cucumber.TestRunnerCasa" time="1.004" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="11.0.15+10-Ubuntu-0ubuntu0.20.04.1"/>
@@ -59,21 +59,21 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="casa juego 21" name="verificar que como casa me repartan dos cartas" time="0.595"/>
-  <testcase classname="casa juego 21" name="verificar que la casa pueda recibir cartas siempre y cuando no se superen los 21 puntos y el jugador se haya plantado #1" time="0.02"/>
-  <testcase classname="casa juego 21" name="verificar que la casa pueda recibir cartas siempre y cuando no se superen los 21 puntos y el jugador se haya plantado #2" time="0.012"/>
-  <testcase classname="casa juego 21" name="verificar que la casa pueda recibir cartas siempre y cuando no se superen los 21 puntos y el jugador se haya plantado #3" time="0.01"/>
-  <testcase classname="casa juego 21" name="verificar que la casa pueda recibir cartas siempre y cuando no se superen los 21 puntos y el jugador se haya plantado #4" time="0.008"/>
-  <testcase classname="casa juego 21" name="verificar que la casa pueda recibir cartas siempre y cuando no se superen los 21 puntos y el jugador se haya plantado #5" time="0.011"/>
-  <testcase classname="casa juego 21" name="realizar el conteo de mis cartas #1" time="0.008"/>
-  <testcase classname="casa juego 21" name="realizar el conteo de mis cartas #2" time="0.01"/>
-  <testcase classname="casa juego 21" name="realizar el conteo de mis cartas #3" time="0.008"/>
-  <testcase classname="casa juego 21" name="realizar el conteo de mis cartas #4" time="0.007"/>
+  <testcase classname="casa juego 21" name="verificar que como casa me repartan dos cartas" time="0.784"/>
+  <testcase classname="casa juego 21" name="verificar que la casa pueda recibir cartas siempre y cuando no se superen los 21 puntos y el jugador se haya plantado #1" time="0.022"/>
+  <testcase classname="casa juego 21" name="verificar que la casa pueda recibir cartas siempre y cuando no se superen los 21 puntos y el jugador se haya plantado #2" time="0.015"/>
+  <testcase classname="casa juego 21" name="verificar que la casa pueda recibir cartas siempre y cuando no se superen los 21 puntos y el jugador se haya plantado #3" time="0.011"/>
+  <testcase classname="casa juego 21" name="verificar que la casa pueda recibir cartas siempre y cuando no se superen los 21 puntos y el jugador se haya plantado #4" time="0.013"/>
+  <testcase classname="casa juego 21" name="verificar que la casa pueda recibir cartas siempre y cuando no se superen los 21 puntos y el jugador se haya plantado #5" time="0.01"/>
+  <testcase classname="casa juego 21" name="realizar el conteo de mis cartas #1" time="0.011"/>
+  <testcase classname="casa juego 21" name="realizar el conteo de mis cartas #2" time="0.011"/>
+  <testcase classname="casa juego 21" name="realizar el conteo de mis cartas #3" time="0.007"/>
+  <testcase classname="casa juego 21" name="realizar el conteo de mis cartas #4" time="0.011"/>
   <testcase classname="casa juego 21" name="realizar el conteo de mis cartas #5" time="0.007"/>
-  <testcase classname="casa juego 21" name="realizar el conteo de mis cartas #6" time="0.006"/>
-  <testcase classname="casa juego 21" name="realizar el conteo de mis cartas #7" time="0.004"/>
-  <testcase classname="casa juego 21" name="Conocer el resultado final para saber el ganador #1" time="0.044"/>
-  <testcase classname="casa juego 21" name="Conocer el resultado final para saber el ganador #2" time="0.007"/>
-  <testcase classname="casa juego 21" name="Conocer el resultado final para saber el ganador #3" time="0.01"/>
-  <testcase classname="casa juego 21" name="Conocer el resultado final para saber el ganador #4" time="0.006"/>
+  <testcase classname="casa juego 21" name="realizar el conteo de mis cartas #6" time="0.008"/>
+  <testcase classname="casa juego 21" name="realizar el conteo de mis cartas #7" time="0.008"/>
+  <testcase classname="casa juego 21" name="Conocer el resultado final para saber el ganador #1" time="0.056"/>
+  <testcase classname="casa juego 21" name="Conocer el resultado final para saber el ganador #2" time="0.008"/>
+  <testcase classname="casa juego 21" name="Conocer el resultado final para saber el ganador #3" time="0.013"/>
+  <testcase classname="casa juego 21" name="Conocer el resultado final para saber el ganador #4" time="0.009"/>
 </testsuite>

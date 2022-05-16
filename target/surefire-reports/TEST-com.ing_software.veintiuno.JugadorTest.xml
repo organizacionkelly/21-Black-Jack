@@ -60,9 +60,9 @@
     <property name="sun.cpu.isalist" value=""/>
   </properties>
   <testcase classname="com.ing_software.veintiuno.JugadorTest" name="imprimirCartasOcultarPrimera" time="0.001"/>
-  <testcase classname="com.ing_software.veintiuno.JugadorTest" name="imprimirCartas" time="0.001"/>
+  <testcase classname="com.ing_software.veintiuno.JugadorTest" name="imprimirCartas" time="0"/>
   <testcase classname="com.ing_software.veintiuno.JugadorTest" name="wontAddCard" time="0.001"/>
-  <testcase classname="com.ing_software.veintiuno.JugadorTest" name="sumarPuntosAs" time="0.001"/>
+  <testcase classname="com.ing_software.veintiuno.JugadorTest" name="sumarPuntosAs" time="0.002"/>
   <testcase classname="com.ing_software.veintiuno.JugadorTest" name="sumarPuntos" time="0"/>
   <testcase classname="com.ing_software.veintiuno.JugadorTest" name="getNombre" time="0"/>
   <testcase classname="com.ing_software.veintiuno.JugadorTest" name="getPuntaje" time="0"/>
