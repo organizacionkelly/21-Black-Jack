@@ -19,12 +19,12 @@ jobs:
           java-version: '11'
           distribution: 'adopt'
       - name: Set up Maven Settings for deploy
-        uses: s4u/maven-settings-action@v2.1.1
+        #uses: s4u/maven-settings-action@v2.1.1
       - name: Publish package
         env:
           USER_GITHUB: ${{ secrets.USER_GITHUB }}
           TOKEN_GITHUB: ${{ secrets.TOKEN_GITHUB }}
-        run: mvn source:jar deploy -DuniqueVersion=false -Dmaven.source.useDefaultManifestFile=true -Dmaven.source.includePom=true -DaltDeploymentRepository='github::default::https://maven.pkg.github.com/organizacionkelly/prueba-mvn'
+        run: mvn --settings settings.xml --file pom.xml deploy
  
   build_image:
     name: build image
@@ -40,5 +40,6 @@ jobs:
       - name: build and push to docker
         uses: docker/build-push-action@v2
         with:
+          context: .
           push: true
           tags: kelly1311/new-repo:app-MCIC-Java21
