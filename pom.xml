@@ -86,8 +86,8 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
     </dependencies>
     <distributionManagement>
        	 <repository>
-        	 <id>MCIC-Java21</id>
-          	<name>GitHub Packages</name>
+        	 <id>github</id>
+          	<name>GitHub organizacionkelly Apache Maven Packages</name>
           	<url>https://maven.pkg.github.com/organizacionkelly/21-Black-Jack</url>
          </repository>
     </distributionManagement>
