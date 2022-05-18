@@ -12,8 +12,8 @@
             <repositories>
                 <repository>
                     <id>github</id>
-                    <name>GitHub  Apache Maven Packages</name>
-                    <url>https://maven.pkg.github.com/organizacionkelly/21-Black-Jack</url>
+                    <name>GitHub organizacionkelly Apache Maven Packages</name>
+                    <url>https://maven.pkg.github.com/organizacionkelly</url>
                 </repository>
             </repositories>
         </profile>
