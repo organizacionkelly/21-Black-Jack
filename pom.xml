@@ -15,6 +15,25 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
                     <target>11</target>
                 </configuration>
             </plugin>
+            <plugin>
+                <artifactId>maven-deploy-plugin</artifactId>
+                <version>2.8.1</version>
+            </plugin>
+            <plugin>
+                <!-- Build an executable JAR -->
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-jar-plugin</artifactId>
+                    <version>3.1.0</version>
+                    <configuration>
+                        <archive>
+                        <manifest>
+                            <addClasspath>true</addClasspath>
+                            <classpathPrefix>lib/</classpathPrefix>
+                            <mainClass>com.ing_software.veintiuno.Launcher</mainClass>
+                        </manifest>
+                        </archive>
+                    </configuration>
+                </plugin>
         </plugins>
     </build>
     <name>VeintiunoBDD</name>
@@ -69,7 +88,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
        	 <repository>
         	 <id>MCIC-Java21</id>
           	<name>GitHub Packages</name>
-          	<url>https://maven.pkg.github.com/organizacionkelly/prueba-mvn</url>
+          	<url>https://maven.pkg.github.com/organizacionkelly/21-Black-Jack</url>
          </repository>
     </distributionManagement>
 </project>
