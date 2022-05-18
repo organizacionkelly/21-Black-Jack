@@ -5,10 +5,22 @@ on:
       - main
 
 jobs: 
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2         
+      - name: Set up JDK
+        uses: actions/setup-java@v2
+        with:
+          java-version: '11'
+          distribution: 'adopt'
+      - name: Test
+        run: mvn --batch-mode test
+
 
   publish-artifact:
     runs-on: ubuntu-latest
-
+    needs: [test]
     permissions: 
       contents: read
       packages: write
