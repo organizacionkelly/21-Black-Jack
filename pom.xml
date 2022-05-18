@@ -4,7 +4,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
     <groupId>github.kelly1311</groupId>
     <artifactId>Black-Jack</artifactId>
     <name>VeintiunoBDD</name>
-    <version>1.0.1</version>
+    <version>1.0.0</version>
     <build>
         <plugins>
             <plugin>
