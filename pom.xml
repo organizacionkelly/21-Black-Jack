@@ -3,6 +3,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
     <modelVersion>4.0.0</modelVersion>
     <groupId>github.organizacionkelly</groupId>
     <artifactId>21-Black-Jack</artifactId>
+    <name>VeintiunoBDD</name>
     <version>1.0.0</version>
     <build>
         <plugins>
@@ -36,7 +37,6 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
                 </plugin>
         </plugins>
     </build>
-    <name>VeintiunoBDD</name>
     <properties>
         <github.global.server>github</github.global.server>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
