@@ -13,7 +13,7 @@
                 <repository>
                     <id>github</id>
                     <name>GitHub organizacionkelly Apache Maven Packages</name>
-                    <url>https://maven.pkg.github.com/organizacionkelly</url>
+                    <url>https://maven.pkg.github.com/kelly1311</url>
                 </repository>
             </repositories>
         </profile>
